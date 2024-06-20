@@ -1,0 +1,36 @@
+{
+  "homepage": "http://amadeus211.github.io/react-weather-app-with-interactive-map",
+  "name": "weather-test",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rsbuild dev --open",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.15.19",
+    "dotenv": "^16.4.5",
+    "leaflet": "^1.9.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-leaflet": "^4.2.1",
+    "react-loader-spinner": "^6.1.6",
+    "react-router": "^6.23.1",
+    "react-router-dom": "^6.23.1",
+    "react-spinners": "^0.13.8"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^0.7.3",
+    "@rsbuild/plugin-react": "^0.7.3",
+    "autoprefixer": "^10.4.19",
+    "dotenv-webpack": "^8.1.0",
+    "gh-pages": "^6.1.1",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4"
+  }
+}
